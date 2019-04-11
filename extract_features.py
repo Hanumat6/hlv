@@ -3,7 +3,8 @@ from skimage.io import imread
 from sklearn.externals import joblib
 import glob
 import os
-"""from config import *"""
+
+""" config  """
 pos_im_path = 'F:\\human-detector-master\\data\\images\\pos_person'
 neg_im_path = 'F:\\human-detector-master\\data\\images\\neg_person'
 min_wdw_sz = [64, 128]
